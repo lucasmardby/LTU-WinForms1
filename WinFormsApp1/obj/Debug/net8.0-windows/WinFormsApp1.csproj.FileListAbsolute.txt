@@ -1,0 +1,17 @@
+E:\Code\LTU-WinForms1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+E:\Code\LTU-WinForms1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+E:\Code\LTU-WinForms1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+E:\Code\LTU-WinForms1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+E:\Code\LTU-WinForms1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.MainForm.resources
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+E:\Code\LTU-WinForms1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
