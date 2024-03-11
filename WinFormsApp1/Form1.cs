@@ -10,6 +10,9 @@ namespace WinFormsApp1
             InitializeGUI();
         }
 
+        /// <summary>
+        /// Initialize controls on the GUI
+        /// </summary>
         private void InitializeGUI()
         {
             txtPrize.Text = string.Empty;
@@ -17,6 +20,11 @@ namespace WinFormsApp1
 
             listboxChange.Items.Clear();
         }
+        /// <summary>
+        /// Button to calculate and display user-input prize and payment
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
             bool ok = ReadInput();
@@ -26,11 +34,19 @@ namespace WinFormsApp1
                 DisplayResults();
             }
         }
+        /// <summary>
+        /// Button to exit application
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
+        /// <summary>
+        /// Reads both user-input prize and payment
+        /// </summary>
+        /// <returns>true if both prize and payment are valid numbers</returns>
         private bool ReadInput()
         {
             bool prizeOK = ReadPrize();
@@ -38,6 +54,10 @@ namespace WinFormsApp1
 
             return prizeOK && paymentOK;
         }
+        /// <summary>
+        /// Reads prize from textbox, and makes sure its a valid number
+        /// </summary>
+        /// <returns>true if it is</returns>
         private bool ReadPrize()
         {
             bool ok = int.TryParse(txtPrize.Text.Trim(), out int prize);
@@ -59,6 +79,10 @@ namespace WinFormsApp1
             return ok;
 
         }
+        /// <summary>
+        /// Reads payment from textbox, and makes sure its a valid number
+        /// </summary>
+        /// <returns>true if it is</returns>
         private bool ReadPayment()
         {
             bool ok = int.TryParse(txtPayment.Text.Trim(), out int payment);
@@ -80,6 +104,9 @@ namespace WinFormsApp1
             return ok;
         }
 
+        /// <summary>
+        /// Calculates and displays result on the listbox
+        /// </summary>
         private void DisplayResults()
         {
             calculator.CalculateChange();

@@ -36,6 +36,7 @@ namespace WinFormsApp1
             if (value >= 0)
                 payment = value;
         }
+        
         //getters for money counters
         public int GetFiveHundreds()
         { 
